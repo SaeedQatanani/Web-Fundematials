@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+
+    <form action="">
+        <label for="firstname">First Name: *</label>
+        <input type="text" name="firstname" id="firstname"><br><br>
+
+        <label for="lastname">Last Name: *</label>
+        <input type="text" name="lastname" id="lastname"><br><br>
+
+        <label for="email">Email Address: *</label>
+        <input type="email" name="email" id="email"><br><br>
+
+        <label for="password">Password: *</label>
+        <input type="password" name="password" id="password"><br><br>
+
+        <label for="cpassword">Confirm Password: *</label>
+        <input type="password" name="cpassword" id="cpassword"><br><br>
+
+        <label for="birthday">Birthday: *</label>
+        <input type="date" name="birthday" id="birthday"><br><br>
+
+        <p>Gender Identity</p>
+        <input type="radio" name="genderid1" id="genderid1">
+        <label for="genderid1">Male</label>
+        <input type="radio" name="genderid2" id="genderid2">
+        <label for="genderid2">Female</label>
+        <input type="radio" name="genderid3" id="genderid3">
+        <label for="genderid3">Non-binary</label>
+        <input type="radio" name="genderid4" id="genderid4">
+        <label for="genderid4">I prefer not to answer</label><br><br>
+
+        <p>A short description about myself:</p>
+        <textarea name="description" id="description" cols="35" rows="4"></textarea><br><br>
+
+        <label for="flanguage">Favorite Language: </label>
+        <select name="flanguage" id="flanguage">
+            <option value="JavaScript">JavaScript</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+        </select><br><br>
+        
+        <input type="checkbox" name="approval" id="approval">
+        <label for="approval">Yes, I would like to receive periodic email updates</label><br><br>
+
+        <input type="submit" value="Create Account"><br><br>
+        <p>* Indicates a required field</p>
+        
+    </form>
+</body>
+</html>
