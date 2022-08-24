@@ -1,0 +1,23 @@
+.row {
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.col {
+    background-color: darkcyan;
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+}
+.col-2 {
+    background-color: darkcyan;
+    padding: 10px;
+    margin: 10px;
+    flex: 2;
+}
+.col-3 {
+    background-color: darkcyan;
+    padding: 10px;
+    margin: 10px;
+    flex: 3;
+}
