@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    width: 500px;
+    margin: 20px;
+    background-color: rgb(101, 137, 235);
+    border: 1px solid rgb(160, 155, 155);
+    position: relative;
+    left: 370px;
+}
+
+.header{
+    height: 70px;
+}
+
+.body {
+    background-color: white;
+    padding: 20px;
+}
+
+.img1 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+}
+
+.seattle {
+    position: relative;
+    left: 10px;
+    top:7px;
+}
+
+.img2 {
+    float: left;
+    position:relative;
+    top:10px;
+    height: 14px;
+}
+
+.img3 {
+    width: 13px;
+}
+
+
+
+
+
