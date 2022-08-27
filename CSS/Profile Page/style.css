@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.navbar {
+    color: white;
+    background-color:dimgray;
+    width: 95%;
+    height: 50px;
+    padding: 1%;
+    margin: 1%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navleft {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav-links {
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type:none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+.editprofile {
+    color: black;
+    text-decoration: underline;
+}
+
+.navright {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 30%;
+    min-height: 30px;
+    background-color: aqua;
+    box-shadow: 3px 3px;
+}
+
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+}
+.mcontainer {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+}
+main {
+    width: 50%;
+}
+.main {
+    width: 98%;
+    background-color: rgb(101, 137, 235);
+    border: 1px solid rgb(160, 155, 155);
+    position: relative;
+    left: 60px;
+}
+aside {
+    width: 15%;
+    position: relative;
+    left: 200px;
+}
+.buttom {
+    width: 98%;
+    margin: 5px;
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    left: 56px;
+    top: 20px;
+}
+.header{
+    height: 70px;
+}
+
+.body {
+    background-color: white;
+    padding: 20px;
+}
+
+.img1 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+}
+
+.seattle {
+    position: relative;
+    left: 10px;
+    top:7px;
+}
+
+.img2 {
+    float: left;
+    position:relative;
+    top:10px;
+    height: 14px;
+}
+
+.img3 {
+    width: 13px;
+}
+.img4 {
+    width: 10%;
+    height: 10%;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.education {
+    background-color: dimgray;
+    color: white;
+    width: 97%;
+    min-height: 25px;
+    padding: 2% 1% 1% 5px;
+}
+h5 {
+    padding: 5px;
+    height: 20px;
+}
+.date {
+    height: 15px;
+    font-size: 70%;
+    padding: 5px;
+}
+.info {
+    padding: 5px;
+}
+.circle {
+    height: 20px;
+    width: 20px;
+    padding: 1%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: darkgray;
+    display: inline-block;
+}
+.scircle {
+    height: 20px;
+    width: 40px;
+    padding: 1%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 45%;
+    background-color: darkgray;
+    display: inline-block;
+}
+.text {
+    display: inline-block;
+    height: 30px;
+}
+.connectionrequests {
+    width: 100%;
+    min-height: 80px;
+    border: 2px solid grey;
+}
+.yourconnections {
+    width: 100%;
+    min-height: 150px;
+    border: 2px solid grey;
+    position: relative;
+    top: 50px;
+}
+.name {
+    display: inline-block;
+    width: 60%;
+    min-height: 30px;
+}
+.viewmore {
+    color: blue;
+    text-decoration: underline;
+    font-style: italic;
+    text-align: center;
+    margin: 5%;
+}
