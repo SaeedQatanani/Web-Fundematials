@@ -13,7 +13,7 @@
     <header>
         <h1>Dojonary</h1>
         <textarea name="search" cols="40" rows="1" placeholder="Search"></textarea>
-        <button onclick="changeText(this)">Login</button>
+        <button onclick="changeText(this)" onmouseover="addShadow(this)" onmouseleave="removeShadow(this)">Login</button>
     </header>
     <div class="container">
         <main>
@@ -22,7 +22,7 @@
                     <h2>ninja</h2>
                     <p>noun</p>
                     <p>Plural: ninjas</p>
-                    <button onclick="alert('Ninja was liked')" class="likes">13 likes</button>
+                    <button onclick="alert('Ninja was liked')" class="likes" onmouseover="addShadow(this)" onmouseleave="removeShadow(this)">13 likes</button>
                 </div>
                 <div class="worddes">
                     <p>A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></p>
@@ -33,7 +33,7 @@
                     <h2>ninja</h2>
                     <p>noun</p>
                     <p>Plural: ninjas</p>
-                    <button onclick="alert('Ninja was liked')" class="likes">37 likes</button>
+                    <button onclick="alert('Ninja was liked')" class="likes" onmouseover="addShadow(this)" onmouseleave="removeShadow(this)">37 likes</button>
                 </div>
                 <div class="worddes">
                     <p>A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</p>
@@ -42,7 +42,7 @@
         </main>
         <aside>
             <h4>Dojonary is defined by <strong>YOU</strong></h4>
-            <button class="definition" onclick="removeText(this)">Add Definition</button>
+            <button class="definition" onclick="removeText(this)" onmouseover="addShadow(this)" onmouseleave="removeShadow(this)">Add Definition</button>
         </aside>
     </div>
     <script src="scripte.js"></script>

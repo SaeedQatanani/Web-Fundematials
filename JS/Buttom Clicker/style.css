@@ -93,6 +93,13 @@ article {
     font-size: 80%;
 }
 
+.shadow {
+    box-shadow: 5px 5px 5px #999;
+    position: relative;
+    bottom: 5px;
+    cursor: pointer;
+}
+
 aside {
     height: 100px;
     margin: 40px;
