@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0 350px;
+}
+
+header {
+    width: 750px;
+    height: 130px;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav {
+    height: 50px;
+    padding: 15px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 40px;
+    vertical-align: bottom;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+main {
+    width: 750px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+aside {
+    height: 150px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    flex: 1;
+    text-align: center;
+}
+
+img {
+    margin: 20px;
+    display: block;
+    width: 50px;
+    position: relative;
+    left: 35px;
+}
+
+.board {
+    flex: 2;
+}
+
+section {
+    width: 500px;
+    height: 150px;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.user {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    background-color: lightyellow;
+    color: black;
+    border: 1px;
+    box-shadow: 5px 5px 5px #666;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+p {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.statement {
+    margin: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
