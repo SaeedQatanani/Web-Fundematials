@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Dojo Weather</h1>
+            <ul>
+                <li onclick="alert('Loading Burbank weather report...')">Burbank</li>
+                <li onclick="alert('Loading Chicago weather report...')">Chicago</li>
+                <li onclick="alert('Loading Dollas weather report...')">Dollas</li>
+            </ul>
+        </header>
+        <main>
+            <nav>
+                <h2>San Jose</h2>
+                <div>
+                    <label>show temperature in</label>
+                    <select name="temp" id="temp" onchange="changeTemp(value)">
+                        <option value="cel">°C</option>
+                        <option value="feh">°F</option>
+                    </select>
+                </div>
+            </nav>
+            <div class="hline"></div>
+            <div class="middle">
+                <section>
+                    <h4>Today</h4>
+                    <img src="assets\some_rain.png" alt="Rain">
+                    <p>some rain</p>
+                    <div class="tempValue">
+                        <p class="red"><span>24</span>°</p>
+                        <p class="blue"><span>18</span>°</p>
+                    </div>
+                </section>
+                <section>
+                    <h4>Tomorrow</h4>
+                    <img src="assets\some_sun.png" alt="Rain">
+                    <p>some sun</p>
+                    <div class="tempValue">
+                        <p class="red"><span>27</span>°</p>
+                        <p class="blue"><span>19</span>°</p>
+                    </div>
+                </section>
+                <section>
+                    <h4>Friday</h4>
+                    <img src="assets\some_clouds.png" alt="Rain">
+                    <p>some clouds</p>
+                    <div class="tempValue">
+                        <p class="red"><span>21</span>°</p>
+                        <p class="blue"><span>16</span>°</p>
+                    </div>
+                </section>
+                <section>
+                    <h4>Saturday</h4>
+                    <img src="assets\some_sun.png" alt="Rain">
+                    <p>some sun</p>
+                    <div class="tempValue">
+                        <p class="red"><span>26</span>°</p>
+                        <p class="blue"><span>21</span>°</p>
+                    </div>
+                </section>
+            </div>
+            <footer>
+                <img src="assets\cookie.png" alt="Cookie" class="cookie">
+                <div class="cookieText">
+                    <h5>Stop! Cookie time</h5>
+                    <p class="warning">We use cookies (sadly not the edible ones) to personalize content and ads, to provide social
+                        media features and to analyse our traffic. <a href="">Read more...</a></p>
+                </div>
+                <button onclick="dismiss()"><strong>I Accept</strong></button>
+            </footer>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
