@@ -13,7 +13,7 @@ function changeTemp(selectValue) {
         }
     }
     else if (selectValue == "cel") {
-        for (var i = 0; i < temp.length; i++) {
+        for ( i = 0; i < temp.length; i++) {
             temp[i].innerText = Math.round((temp[i].innerText - 32) * (5/9));
         }
     }
