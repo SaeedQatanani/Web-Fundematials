@@ -44,8 +44,10 @@ button {
 }
 
 #equals {
+    margin: 10px;
     width: 200px;
-    border-radius: 50%;
+    height: 60px;
+    border-radius: 30px;
 }
 
 .operator {
